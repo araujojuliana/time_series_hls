@@ -1,0 +1,31 @@
+# =========================
+# PATHS
+# =========================
+input_path: "C:/Users/jd2725/Documents/Field_boundaries_v2/fields_states/"
+output_dir: "C:/evi_output"
+output_postprocess: "C:/evi_output_raw"
+
+# =========================
+# FILTERS
+# =========================
+statefp: ["19"]
+
+# =========================
+# TIME RANGE
+# =========================
+start_date: "2024-01-01"
+end_date: "2025-01-01"
+year: "2024"
+valid_pixels: false
+
+# =========================
+# GEE
+# =========================
+project_id: "ts-ms-fields"
+cloud_coverage: 80
+
+# =========================
+# PROCESSING
+# =========================
+batch_size: 300
+scale: 30
