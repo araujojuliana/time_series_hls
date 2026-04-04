@@ -28,7 +28,7 @@ def transform_dataframe(df, output_root):
     count_cols = [col for col in df.columns if "_count" in col]
     has_count = len(count_cols) > 0
 
-    logging.info(f"[INFO] EVI columns found: {len(evi_cols)}")
+    logging.info(f"[INFO] NDVI columns found: {len(evi_cols)}")
     logging.info(f"[INFO] Count columns found: {has_count}")
 
     # =========================
@@ -43,7 +43,7 @@ def transform_dataframe(df, output_root):
         records = []
 
         for col in evi_cols:
-            match = re.search(r"EVI_(\d{8})_(HLSS30|HLSL30)_CC(\d+)_median", col)
+            match = re.search(r"NDVI_(\d{8})_(HLSS30|HLSL30)_CC(\d+)_median", col)
             col_count = col.replace("_median", "_count")
 
             if match:
@@ -55,7 +55,7 @@ def transform_dataframe(df, output_root):
                     "field_id": field_id,
                     "collection": collection,
                     #"CC_image": int(cc),
-                    "EVI": value
+                    "NDVI": value
                 }
 
                 # valid pixels (optional)
@@ -74,9 +74,9 @@ def transform_dataframe(df, output_root):
         if df_long.empty:
             continue
 
-        # clean EVI
-        df_long["EVI"] = df_long["EVI"].replace(-9999, pd.NA)
-        df_long = df_long.dropna(subset=["EVI"])
+        # clean NDVI
+        df_long["NDVI"] = df_long["NDVI"].replace(-9999, pd.NA)
+        df_long = df_long.dropna(subset=["NDVI"])
 
         if df_long.empty:
             continue
@@ -88,7 +88,7 @@ def transform_dataframe(df, output_root):
             df_long
             .groupby("date", as_index=False)
             .agg({
-                "EVI": "mean",
+                "NDVI": "mean",
                 "valid_pixels": "mean"
             })
         )

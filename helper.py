@@ -264,7 +264,7 @@ def get_image_collection(fc, start_date, end_date, cloud_limit) -> 'ee.ImageColl
     image_collection = image_collection.sort('system:time_start')
 
     #image_collection = image_collection.map(add_ndvi).map(add_evi)
-    image_collection = image_collection.map(add_evi)
+    image_collection = image_collection.map(add_ndvi)
 
     return image_collection
 
@@ -274,14 +274,14 @@ def add_band_name(image):
     collection = ee.String(image.get('collection'))
     cloud = ee.Number(image.get('CLOUD_COVERAGE')).format('%.0f')
 
-    band_name = ee.String('EVI_') \
+    band_name = ee.String('NDVI_') \
         .cat(date) \
         .cat('_') \
         .cat(collection) \
         .cat('_CC') \
         .cat(cloud)
 
-    return image.select('EVI').unmask(-9999).rename(band_name)
+    return image.select('NDVI').unmask(-9999).rename(band_name)
 
 def process_batch(batch_gdf, start, output_dir, START_DATE, END_DATE, cc, state, county, base_path, output_root, valid_pixels):
     start_time = time.time()

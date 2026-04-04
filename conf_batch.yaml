@@ -2,8 +2,8 @@
 # PATHS
 # =========================
 input_path: "C:/Users/jd2725/Documents/Field_boundaries_v2/fields_states/"
-output_dir: "C:/evi_output"
-output_postprocess: "C:/evi_output_raw"
+output_dir: "C:/ndvi_output"
+output_postprocess: "C:/ndvi_output_raw"
 
 # =========================
 # FILTERS

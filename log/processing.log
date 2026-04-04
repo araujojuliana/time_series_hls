@@ -437,3 +437,297 @@
 2026-04-04 10:35:10,129 - INFO - [SKIP] Batch 4200 fully processed
 2026-04-04 10:35:10,130 - INFO - [SKIP] Batch 4500 fully processed
 2026-04-04 10:35:10,130 - INFO - [SKIP] Batch 4800 fully processed
+2026-04-04 10:48:59,244 - INFO - Total features in state 19: 567520
+2026-04-04 10:48:59,268 - INFO - Counties in state 19: ['061' '097' '045' '163' '071' '145' '093' '161' '025' '187' '047' '027'
+ '073' '015' '165' '009' '077' '049' '155' '029' '001' '121' '177' '111'
+ '137' '003' '175' '173' '159' '109' '189' '195' '131' '081' '033' '067'
+ '091' '197' '069' '023' '079' '083' '075' '013' '019' '171' '011' '113'
+ '127' '099' '157' '095' '103' '107' '183' '125' '123' '007' '051' '191'
+ '005' '193' '133' '085' '053' '185' '153' '181' '039' '117' '135' '129'
+ '055' '105' '031' '139' '119' '167' '089' '037' '065' '017' '143' '059'
+ '063' '141' '041' '147' '021' '035' '151' '115' '101' '087' '057' '149'
+ '179' '169' '043']
+2026-04-04 10:48:59,291 - INFO - Processing county: 163. Total features: 4921
+2026-04-04 10:48:59,294 - INFO - [GAP] Processing missing range 0 → 1
+2026-04-04 10:48:59,294 - INFO - [INFO] Processing batch 0 → 1
+2026-04-04 10:48:59,295 - INFO - Using CRS: EPSG:32615
+2026-04-04 10:48:59,299 - INFO - Created 1 records
+2026-04-04 10:49:08,442 - INFO - [INFO] Saved: C:\ndvi_output\2024\19\163\19_163_batch_0_to_1.csv
+2026-04-04 10:49:08,442 - INFO - [TIME] Batch 0 → 1 took 9.15 sec (0.15 min)
+2026-04-04 10:49:26,012 - INFO - Total features in state 19: 567520
+2026-04-04 10:49:26,033 - INFO - Counties in state 19: ['061' '097' '045' '163' '071' '145' '093' '161' '025' '187' '047' '027'
+ '073' '015' '165' '009' '077' '049' '155' '029' '001' '121' '177' '111'
+ '137' '003' '175' '173' '159' '109' '189' '195' '131' '081' '033' '067'
+ '091' '197' '069' '023' '079' '083' '075' '013' '019' '171' '011' '113'
+ '127' '099' '157' '095' '103' '107' '183' '125' '123' '007' '051' '191'
+ '005' '193' '133' '085' '053' '185' '153' '181' '039' '117' '135' '129'
+ '055' '105' '031' '139' '119' '167' '089' '037' '065' '017' '143' '059'
+ '063' '141' '041' '147' '021' '035' '151' '115' '101' '087' '057' '149'
+ '179' '169' '043']
+2026-04-04 10:49:26,053 - INFO - Processing county: 163. Total features: 4921
+2026-04-04 10:49:26,060 - INFO - [SKIP] Batch 0 fully processed
+2026-04-04 10:49:26,060 - INFO - [SKIP] Batch 300 fully processed
+2026-04-04 10:49:26,061 - INFO - [SKIP] Batch 600 fully processed
+2026-04-04 10:49:26,061 - INFO - [SKIP] Batch 900 fully processed
+2026-04-04 10:49:26,062 - INFO - [SKIP] Batch 1200 fully processed
+2026-04-04 10:49:26,062 - INFO - [SKIP] Batch 1500 fully processed
+2026-04-04 10:49:26,063 - INFO - [SKIP] Batch 1800 fully processed
+2026-04-04 10:49:26,064 - INFO - [SKIP] Batch 2100 fully processed
+2026-04-04 10:49:26,064 - INFO - [SKIP] Batch 2400 fully processed
+2026-04-04 10:49:26,065 - INFO - [SKIP] Batch 2700 fully processed
+2026-04-04 10:49:26,066 - INFO - [SKIP] Batch 3000 fully processed
+2026-04-04 10:49:26,068 - INFO - [SKIP] Batch 3300 fully processed
+2026-04-04 10:49:26,068 - INFO - [SKIP] Batch 3600 fully processed
+2026-04-04 10:49:26,069 - INFO - [SKIP] Batch 3900 fully processed
+2026-04-04 10:49:26,070 - INFO - [SKIP] Batch 4200 fully processed
+2026-04-04 10:49:26,070 - INFO - [SKIP] Batch 4500 fully processed
+2026-04-04 10:49:26,071 - INFO - [SKIP] Batch 4800 fully processed
+2026-04-04 10:50:24,280 - INFO - Total features in state 19: 567520
+2026-04-04 10:50:24,301 - INFO - Counties in state 19: ['061' '097' '045' '163' '071' '145' '093' '161' '025' '187' '047' '027'
+ '073' '015' '165' '009' '077' '049' '155' '029' '001' '121' '177' '111'
+ '137' '003' '175' '173' '159' '109' '189' '195' '131' '081' '033' '067'
+ '091' '197' '069' '023' '079' '083' '075' '013' '019' '171' '011' '113'
+ '127' '099' '157' '095' '103' '107' '183' '125' '123' '007' '051' '191'
+ '005' '193' '133' '085' '053' '185' '153' '181' '039' '117' '135' '129'
+ '055' '105' '031' '139' '119' '167' '089' '037' '065' '017' '143' '059'
+ '063' '141' '041' '147' '021' '035' '151' '115' '101' '087' '057' '149'
+ '179' '169' '043']
+2026-04-04 10:50:24,321 - INFO - Processing county: 163. Total features: 4921
+2026-04-04 10:50:24,329 - INFO - [GAP] Processing missing range 0 → 1
+2026-04-04 10:50:24,329 - INFO - [INFO] Processing batch 0 → 1
+2026-04-04 10:50:24,330 - INFO - Using CRS: EPSG:32615
+2026-04-04 10:50:24,334 - INFO - Created 1 records
+2026-04-04 10:50:34,081 - ERROR - Failed batch 0 → 1: ImageCollection.toBands: Error in map(ID=2_T16TBM_20240105T164106):
+Image.select: Band pattern 'EVI' did not match any bands. Available bands: [NIR, RED, GREEN, BLUE, NDVI]
+2026-04-04 10:50:34,082 - ERROR - [FAILED] Cannot split further: 0
+2026-04-04 10:50:34,085 - INFO - [SKIP] Batch 300 fully processed
+2026-04-04 10:50:34,086 - INFO - [SKIP] Batch 600 fully processed
+2026-04-04 10:50:34,087 - INFO - [SKIP] Batch 900 fully processed
+2026-04-04 10:50:34,087 - INFO - [SKIP] Batch 1200 fully processed
+2026-04-04 10:50:34,088 - INFO - [SKIP] Batch 1500 fully processed
+2026-04-04 10:50:34,088 - INFO - [SKIP] Batch 1800 fully processed
+2026-04-04 10:50:34,089 - INFO - [SKIP] Batch 2100 fully processed
+2026-04-04 10:50:34,089 - INFO - [SKIP] Batch 2400 fully processed
+2026-04-04 10:50:34,090 - INFO - [SKIP] Batch 2700 fully processed
+2026-04-04 10:50:34,090 - INFO - [SKIP] Batch 3000 fully processed
+2026-04-04 10:50:34,091 - INFO - [SKIP] Batch 3300 fully processed
+2026-04-04 10:50:34,091 - INFO - [SKIP] Batch 3600 fully processed
+2026-04-04 10:50:34,092 - INFO - [SKIP] Batch 3900 fully processed
+2026-04-04 10:50:34,092 - INFO - [SKIP] Batch 4200 fully processed
+2026-04-04 10:50:34,093 - INFO - [SKIP] Batch 4500 fully processed
+2026-04-04 10:50:34,094 - INFO - [SKIP] Batch 4800 fully processed
+2026-04-04 10:52:20,750 - INFO - Total features in state 19: 567520
+2026-04-04 10:52:20,774 - INFO - Counties in state 19: ['061' '097' '045' '163' '071' '145' '093' '161' '025' '187' '047' '027'
+ '073' '015' '165' '009' '077' '049' '155' '029' '001' '121' '177' '111'
+ '137' '003' '175' '173' '159' '109' '189' '195' '131' '081' '033' '067'
+ '091' '197' '069' '023' '079' '083' '075' '013' '019' '171' '011' '113'
+ '127' '099' '157' '095' '103' '107' '183' '125' '123' '007' '051' '191'
+ '005' '193' '133' '085' '053' '185' '153' '181' '039' '117' '135' '129'
+ '055' '105' '031' '139' '119' '167' '089' '037' '065' '017' '143' '059'
+ '063' '141' '041' '147' '021' '035' '151' '115' '101' '087' '057' '149'
+ '179' '169' '043']
+2026-04-04 10:52:20,794 - INFO - Processing county: 163. Total features: 4921
+2026-04-04 10:52:20,799 - INFO - [GAP] Processing missing range 0 → 1
+2026-04-04 10:52:20,799 - INFO - [INFO] Processing batch 0 → 1
+2026-04-04 10:52:20,800 - INFO - Using CRS: EPSG:32615
+2026-04-04 10:52:20,806 - INFO - Created 1 records
+2026-04-04 10:52:48,355 - INFO - [INFO] Saved: C:\ndvi_output\2024\19\163\19_163_batch_0_to_1.csv
+2026-04-04 10:52:48,356 - INFO - [TIME] Batch 0 → 1 took 27.56 sec (0.46 min)
+2026-04-04 10:52:53,357 - INFO - [INFO] Transforming dataframe with 1 rows and 1885 columns
+2026-04-04 10:52:53,491 - INFO - [INFO] NDVI columns found: 1876
+2026-04-04 10:52:53,492 - INFO - [INFO] Count columns found: False
+2026-04-04 10:52:53,572 - INFO - [INFO] Saved C:\ndvi_output_raw\2024\19\163\19163000468.csv
+2026-04-04 10:52:53,573 - INFO - [TIME] Batch 0 → 1 transformation took 0.22 sec (0.00 min)
+2026-04-04 10:52:53,574 - INFO - [SKIP] Batch 300 fully processed
+2026-04-04 10:52:53,575 - INFO - [SKIP] Batch 600 fully processed
+2026-04-04 10:52:53,576 - INFO - [SKIP] Batch 900 fully processed
+2026-04-04 10:52:53,576 - INFO - [SKIP] Batch 1200 fully processed
+2026-04-04 10:52:53,577 - INFO - [SKIP] Batch 1500 fully processed
+2026-04-04 10:52:53,578 - INFO - [SKIP] Batch 1800 fully processed
+2026-04-04 10:52:53,578 - INFO - [SKIP] Batch 2100 fully processed
+2026-04-04 10:52:53,579 - INFO - [SKIP] Batch 2400 fully processed
+2026-04-04 10:52:53,579 - INFO - [SKIP] Batch 2700 fully processed
+2026-04-04 10:52:53,580 - INFO - [SKIP] Batch 3000 fully processed
+2026-04-04 10:52:53,580 - INFO - [SKIP] Batch 3300 fully processed
+2026-04-04 10:52:53,581 - INFO - [SKIP] Batch 3600 fully processed
+2026-04-04 10:52:53,581 - INFO - [SKIP] Batch 3900 fully processed
+2026-04-04 10:52:53,582 - INFO - [SKIP] Batch 4200 fully processed
+2026-04-04 10:52:53,582 - INFO - [SKIP] Batch 4500 fully processed
+2026-04-04 10:52:53,583 - INFO - [SKIP] Batch 4800 fully processed
+2026-04-04 10:54:09,586 - INFO - Total features in state 19: 567520
+2026-04-04 10:54:09,612 - INFO - Counties in state 19: ['061' '097' '045' '163' '071' '145' '093' '161' '025' '187' '047' '027'
+ '073' '015' '165' '009' '077' '049' '155' '029' '001' '121' '177' '111'
+ '137' '003' '175' '173' '159' '109' '189' '195' '131' '081' '033' '067'
+ '091' '197' '069' '023' '079' '083' '075' '013' '019' '171' '011' '113'
+ '127' '099' '157' '095' '103' '107' '183' '125' '123' '007' '051' '191'
+ '005' '193' '133' '085' '053' '185' '153' '181' '039' '117' '135' '129'
+ '055' '105' '031' '139' '119' '167' '089' '037' '065' '017' '143' '059'
+ '063' '141' '041' '147' '021' '035' '151' '115' '101' '087' '057' '149'
+ '179' '169' '043']
+2026-04-04 10:54:09,638 - INFO - Processing county: 089. Total features: 5534
+2026-04-04 10:54:09,641 - INFO - [GAP] Processing missing range 0 → 1
+2026-04-04 10:54:09,642 - INFO - [INFO] Processing batch 0 → 1
+2026-04-04 10:54:09,642 - INFO - Using CRS: EPSG:32615
+2026-04-04 10:54:09,648 - INFO - Created 1 records
+2026-04-04 10:54:28,843 - INFO - [INFO] Saved: C:\ndvi_output\2024\19\089\19_089_batch_0_to_1.csv
+2026-04-04 10:54:28,843 - INFO - [TIME] Batch 0 → 1 took 19.20 sec (0.32 min)
+2026-04-04 10:54:33,845 - INFO - [INFO] Transforming dataframe with 1 rows and 1740 columns
+2026-04-04 10:54:34,011 - INFO - [INFO] NDVI columns found: 1731
+2026-04-04 10:54:34,012 - INFO - [INFO] Count columns found: False
+2026-04-04 10:54:34,108 - INFO - [INFO] Saved C:\ndvi_output_raw\2024\19\089\19089002213.csv
+2026-04-04 10:54:34,108 - INFO - [TIME] Batch 0 → 1 transformation took 0.26 sec (0.00 min)
+2026-04-04 10:54:34,110 - INFO - [SKIP] Batch 300 fully processed
+2026-04-04 10:54:34,111 - INFO - [SKIP] Batch 600 fully processed
+2026-04-04 10:54:34,112 - INFO - [SKIP] Batch 900 fully processed
+2026-04-04 10:54:34,112 - INFO - [SKIP] Batch 1200 fully processed
+2026-04-04 10:54:34,113 - INFO - [SKIP] Batch 1500 fully processed
+2026-04-04 10:54:34,114 - INFO - [SKIP] Batch 1800 fully processed
+2026-04-04 10:54:34,114 - INFO - [SKIP] Batch 2100 fully processed
+2026-04-04 10:54:34,115 - INFO - [SKIP] Batch 2400 fully processed
+2026-04-04 10:54:34,116 - INFO - [SKIP] Batch 2700 fully processed
+2026-04-04 10:54:34,117 - INFO - [SKIP] Batch 3000 fully processed
+2026-04-04 10:54:34,117 - INFO - [SKIP] Batch 3300 fully processed
+2026-04-04 10:54:34,118 - INFO - [SKIP] Batch 3600 fully processed
+2026-04-04 10:54:34,119 - INFO - [SKIP] Batch 3900 fully processed
+2026-04-04 10:54:34,119 - INFO - [SKIP] Batch 4200 fully processed
+2026-04-04 10:54:34,121 - INFO - [SKIP] Batch 4500 fully processed
+2026-04-04 10:54:34,121 - INFO - [SKIP] Batch 4800 fully processed
+2026-04-04 10:54:34,122 - INFO - [SKIP] Batch 5100 fully processed
+2026-04-04 10:54:34,123 - INFO - [SKIP] Batch 5400 fully processed
+2026-04-04 10:56:22,828 - INFO - Total features in state 19: 567520
+2026-04-04 10:56:22,851 - INFO - Counties in state 19: ['061' '097' '045' '163' '071' '145' '093' '161' '025' '187' '047' '027'
+ '073' '015' '165' '009' '077' '049' '155' '029' '001' '121' '177' '111'
+ '137' '003' '175' '173' '159' '109' '189' '195' '131' '081' '033' '067'
+ '091' '197' '069' '023' '079' '083' '075' '013' '019' '171' '011' '113'
+ '127' '099' '157' '095' '103' '107' '183' '125' '123' '007' '051' '191'
+ '005' '193' '133' '085' '053' '185' '153' '181' '039' '117' '135' '129'
+ '055' '105' '031' '139' '119' '167' '089' '037' '065' '017' '143' '059'
+ '063' '141' '041' '147' '021' '035' '151' '115' '101' '087' '057' '149'
+ '179' '169' '043']
+2026-04-04 10:56:22,879 - INFO - Processing county: 161. Total features: 5894
+2026-04-04 10:56:22,882 - INFO - [GAP] Processing missing range 0 → 1
+2026-04-04 10:56:22,883 - INFO - [INFO] Processing batch 0 → 1
+2026-04-04 10:56:22,884 - INFO - Using CRS: EPSG:32615
+2026-04-04 10:56:22,887 - INFO - Created 1 records
+2026-04-04 10:56:45,388 - INFO - [INFO] Saved: C:\ndvi_output\2024\19\161\19_161_batch_0_to_1.csv
+2026-04-04 10:56:45,388 - INFO - [TIME] Batch 0 → 1 took 22.51 sec (0.38 min)
+2026-04-04 10:56:50,389 - INFO - [INFO] Transforming dataframe with 1 rows and 1898 columns
+2026-04-04 10:56:50,604 - INFO - [INFO] NDVI columns found: 1889
+2026-04-04 10:56:50,604 - INFO - [INFO] Count columns found: False
+2026-04-04 10:56:50,729 - INFO - [INFO] Saved C:\ndvi_output_raw\2024\19\161\19161000418.csv
+2026-04-04 10:56:50,730 - INFO - [TIME] Batch 0 → 1 transformation took 0.34 sec (0.01 min)
+2026-04-04 10:56:50,732 - INFO - [SKIP] Batch 300 fully processed
+2026-04-04 10:56:50,733 - INFO - [SKIP] Batch 600 fully processed
+2026-04-04 10:56:50,734 - INFO - [SKIP] Batch 900 fully processed
+2026-04-04 10:56:50,734 - INFO - [SKIP] Batch 1200 fully processed
+2026-04-04 10:56:50,735 - INFO - [SKIP] Batch 1500 fully processed
+2026-04-04 10:56:50,736 - INFO - [SKIP] Batch 1800 fully processed
+2026-04-04 10:56:50,737 - INFO - [SKIP] Batch 2100 fully processed
+2026-04-04 10:56:50,737 - INFO - [SKIP] Batch 2400 fully processed
+2026-04-04 10:56:50,738 - INFO - [SKIP] Batch 2700 fully processed
+2026-04-04 10:56:50,739 - INFO - [SKIP] Batch 3000 fully processed
+2026-04-04 10:56:50,740 - INFO - [SKIP] Batch 3300 fully processed
+2026-04-04 10:56:50,740 - INFO - [SKIP] Batch 3600 fully processed
+2026-04-04 10:56:50,741 - INFO - [SKIP] Batch 3900 fully processed
+2026-04-04 10:56:50,742 - INFO - [SKIP] Batch 4200 fully processed
+2026-04-04 10:56:50,743 - INFO - [SKIP] Batch 4500 fully processed
+2026-04-04 10:56:50,744 - INFO - [SKIP] Batch 4800 fully processed
+2026-04-04 10:56:50,745 - INFO - [SKIP] Batch 5100 fully processed
+2026-04-04 10:56:50,746 - INFO - [SKIP] Batch 5400 fully processed
+2026-04-04 10:56:50,747 - INFO - [SKIP] Batch 5700 fully processed
+2026-04-04 10:58:45,502 - INFO - Total features in state 19: 567520
+2026-04-04 10:58:45,523 - INFO - Counties in state 19: ['061' '097' '045' '163' '071' '145' '093' '161' '025' '187' '047' '027'
+ '073' '015' '165' '009' '077' '049' '155' '029' '001' '121' '177' '111'
+ '137' '003' '175' '173' '159' '109' '189' '195' '131' '081' '033' '067'
+ '091' '197' '069' '023' '079' '083' '075' '013' '019' '171' '011' '113'
+ '127' '099' '157' '095' '103' '107' '183' '125' '123' '007' '051' '191'
+ '005' '193' '133' '085' '053' '185' '153' '181' '039' '117' '135' '129'
+ '055' '105' '031' '139' '119' '167' '089' '037' '065' '017' '143' '059'
+ '063' '141' '041' '147' '021' '035' '151' '115' '101' '087' '057' '149'
+ '179' '169' '043']
+2026-04-04 10:58:45,545 - INFO - Processing county: 099. Total features: 9263
+2026-04-04 10:58:45,547 - INFO - [GAP] Processing missing range 0 → 1
+2026-04-04 10:58:45,547 - INFO - [INFO] Processing batch 0 → 1
+2026-04-04 10:58:45,548 - INFO - Using CRS: EPSG:32615
+2026-04-04 10:58:45,553 - INFO - Created 1 records
+2026-04-04 10:59:13,195 - INFO - [INFO] Saved: C:\ndvi_output\2024\19\099\19_099_batch_0_to_1.csv
+2026-04-04 10:59:13,196 - INFO - [TIME] Batch 0 → 1 took 27.65 sec (0.46 min)
+2026-04-04 10:59:18,196 - INFO - [INFO] Transforming dataframe with 1 rows and 1839 columns
+2026-04-04 10:59:18,326 - INFO - [INFO] NDVI columns found: 1830
+2026-04-04 10:59:18,327 - INFO - [INFO] Count columns found: False
+2026-04-04 10:59:18,406 - INFO - [INFO] Saved C:\ndvi_output_raw\2024\19\099\19099002773.csv
+2026-04-04 10:59:18,407 - INFO - [TIME] Batch 0 → 1 transformation took 0.21 sec (0.00 min)
+2026-04-04 10:59:18,408 - INFO - [SKIP] Batch 300 fully processed
+2026-04-04 10:59:18,409 - INFO - [SKIP] Batch 600 fully processed
+2026-04-04 10:59:18,409 - INFO - [SKIP] Batch 900 fully processed
+2026-04-04 10:59:18,410 - INFO - [SKIP] Batch 1200 fully processed
+2026-04-04 10:59:18,411 - INFO - [SKIP] Batch 1500 fully processed
+2026-04-04 10:59:18,411 - INFO - [SKIP] Batch 1800 fully processed
+2026-04-04 10:59:18,412 - INFO - [SKIP] Batch 2100 fully processed
+2026-04-04 10:59:18,413 - INFO - [SKIP] Batch 2400 fully processed
+2026-04-04 10:59:18,413 - INFO - [SKIP] Batch 2700 fully processed
+2026-04-04 10:59:18,414 - INFO - [SKIP] Batch 3000 fully processed
+2026-04-04 10:59:18,415 - INFO - [SKIP] Batch 3300 fully processed
+2026-04-04 10:59:18,415 - INFO - [SKIP] Batch 3600 fully processed
+2026-04-04 10:59:18,416 - INFO - [SKIP] Batch 3900 fully processed
+2026-04-04 10:59:18,417 - INFO - [SKIP] Batch 4200 fully processed
+2026-04-04 10:59:18,417 - INFO - [SKIP] Batch 4500 fully processed
+2026-04-04 10:59:18,418 - INFO - [SKIP] Batch 4800 fully processed
+2026-04-04 10:59:18,418 - INFO - [SKIP] Batch 5100 fully processed
+2026-04-04 10:59:18,419 - INFO - [SKIP] Batch 5400 fully processed
+2026-04-04 10:59:18,420 - INFO - [SKIP] Batch 5700 fully processed
+2026-04-04 10:59:18,420 - INFO - [SKIP] Batch 6000 fully processed
+2026-04-04 10:59:18,421 - INFO - [SKIP] Batch 6300 fully processed
+2026-04-04 10:59:18,421 - INFO - [SKIP] Batch 6600 fully processed
+2026-04-04 10:59:18,422 - INFO - [SKIP] Batch 6900 fully processed
+2026-04-04 10:59:18,423 - INFO - [SKIP] Batch 7200 fully processed
+2026-04-04 10:59:18,423 - INFO - [SKIP] Batch 7500 fully processed
+2026-04-04 10:59:18,424 - INFO - [SKIP] Batch 7800 fully processed
+2026-04-04 10:59:18,424 - INFO - [SKIP] Batch 8100 fully processed
+2026-04-04 10:59:18,425 - INFO - [SKIP] Batch 8400 fully processed
+2026-04-04 10:59:18,426 - INFO - [SKIP] Batch 8700 fully processed
+2026-04-04 10:59:18,426 - INFO - [SKIP] Batch 9000 fully processed
+2026-04-04 11:00:43,464 - INFO - Total features in state 19: 567520
+2026-04-04 11:00:43,488 - INFO - Counties in state 19: ['061' '097' '045' '163' '071' '145' '093' '161' '025' '187' '047' '027'
+ '073' '015' '165' '009' '077' '049' '155' '029' '001' '121' '177' '111'
+ '137' '003' '175' '173' '159' '109' '189' '195' '131' '081' '033' '067'
+ '091' '197' '069' '023' '079' '083' '075' '013' '019' '171' '011' '113'
+ '127' '099' '157' '095' '103' '107' '183' '125' '123' '007' '051' '191'
+ '005' '193' '133' '085' '053' '185' '153' '181' '039' '117' '135' '129'
+ '055' '105' '031' '139' '119' '167' '089' '037' '065' '017' '143' '059'
+ '063' '141' '041' '147' '021' '035' '151' '115' '101' '087' '057' '149'
+ '179' '169' '043']
+2026-04-04 11:00:43,509 - INFO - Processing county: 001. Total features: 6827
+2026-04-04 11:00:43,511 - INFO - [GAP] Processing missing range 0 → 1
+2026-04-04 11:00:43,512 - INFO - [INFO] Processing batch 0 → 1
+2026-04-04 11:00:43,512 - INFO - Using CRS: EPSG:32615
+2026-04-04 11:00:43,515 - INFO - Created 1 records
+2026-04-04 11:01:12,425 - INFO - [INFO] Saved: C:\ndvi_output\2024\19\001\19_001_batch_0_to_1.csv
+2026-04-04 11:01:12,425 - INFO - [TIME] Batch 0 → 1 took 28.91 sec (0.48 min)
+2026-04-04 11:01:17,426 - INFO - [INFO] Transforming dataframe with 1 rows and 1796 columns
+2026-04-04 11:01:17,554 - INFO - [INFO] NDVI columns found: 1787
+2026-04-04 11:01:17,554 - INFO - [INFO] Count columns found: False
+2026-04-04 11:01:17,638 - INFO - [INFO] Saved C:\ndvi_output_raw\2024\19\001\19001002004.csv
+2026-04-04 11:01:17,639 - INFO - [TIME] Batch 0 → 1 transformation took 0.21 sec (0.00 min)
+2026-04-04 11:01:17,641 - INFO - [SKIP] Batch 300 fully processed
+2026-04-04 11:01:17,641 - INFO - [SKIP] Batch 600 fully processed
+2026-04-04 11:01:17,642 - INFO - [SKIP] Batch 900 fully processed
+2026-04-04 11:01:17,642 - INFO - [SKIP] Batch 1200 fully processed
+2026-04-04 11:01:17,643 - INFO - [SKIP] Batch 1500 fully processed
+2026-04-04 11:01:17,644 - INFO - [SKIP] Batch 1800 fully processed
+2026-04-04 11:01:17,644 - INFO - [SKIP] Batch 2100 fully processed
+2026-04-04 11:01:17,645 - INFO - [SKIP] Batch 2400 fully processed
+2026-04-04 11:01:17,645 - INFO - [SKIP] Batch 2700 fully processed
+2026-04-04 11:01:17,646 - INFO - [SKIP] Batch 3000 fully processed
+2026-04-04 11:01:17,647 - INFO - [SKIP] Batch 3300 fully processed
+2026-04-04 11:01:17,648 - INFO - [SKIP] Batch 3600 fully processed
+2026-04-04 11:01:17,648 - INFO - [SKIP] Batch 3900 fully processed
+2026-04-04 11:01:17,649 - INFO - [SKIP] Batch 4200 fully processed
+2026-04-04 11:01:17,650 - INFO - [SKIP] Batch 4500 fully processed
+2026-04-04 11:01:17,650 - INFO - [SKIP] Batch 4800 fully processed
+2026-04-04 11:01:17,651 - INFO - [SKIP] Batch 5100 fully processed
+2026-04-04 11:01:17,652 - INFO - [SKIP] Batch 5400 fully processed
+2026-04-04 11:01:17,652 - INFO - [SKIP] Batch 5700 fully processed
+2026-04-04 11:01:17,653 - INFO - [SKIP] Batch 6000 fully processed
+2026-04-04 11:01:17,654 - INFO - [SKIP] Batch 6300 fully processed
+2026-04-04 11:01:17,654 - INFO - [SKIP] Batch 6600 fully processed

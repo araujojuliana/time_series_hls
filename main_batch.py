@@ -40,10 +40,10 @@ def main():
         output_processed = Path(config["output_postprocess"])
         output_processed.mkdir(parents=True, exist_ok=True)
 
-        for county in ['163']:#counties:
+        for county in ['117']:#counties:
             county_subset = gdf[gdf["COUNTYFP"] == county]
             total = len(county_subset)
-            county_subset = county_subset[county_subset.Field_ID == 19163000468]
+            county_subset = county_subset[county_subset.Field_ID == 19117000224]
             logging.info(f"Processing county: {county}. Total features: {total}")
 
             year = str(config.get("year"))

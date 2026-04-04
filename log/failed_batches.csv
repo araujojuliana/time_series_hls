@@ -5,3 +5,7 @@
 19,117,2400,220,User memory limit exceeded.
 19,117,2510,110,User memory limit exceeded.
 19,117,2565,55,User memory limit exceeded.
+19,163,0,1,ImageCollection.toBands: Error in map(ID=2_T16TBM_20240105T164106):
+Image.select: Band pattern 'EVI' did not match any bands. Available bands: [NIR, RED, GREEN, BLUE, NDVI]
+19,163,0,1,ImageCollection.toBands: Error in map(ID=2_T16TBM_20240105T164106):
+Image.select: Band pattern 'EVI' did not match any bands. Available bands: [NIR, RED, GREEN, BLUE, NDVI]
