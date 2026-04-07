@@ -1,0 +1,24 @@
+name: gee_ts
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - geopandas
+  - pyogrio
+  - shapely
+  - fiona
+  - rasterio
+  - pandas
+  - numpy
+  - tqdm
+  - pyyaml
+  - pip
+
+  - pip:
+      - earthengine-api
+      - geemap
+      - python-dotenv
+      - duckdb

@@ -1,0 +1,13 @@
+geopandas
+pyogrio
+shapely
+fiona
+rasterio
+pandas
+numpy
+tqdm
+pyyaml
+earthengine-api
+geemap
+python-dotenv
+duckdb

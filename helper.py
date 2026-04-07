@@ -107,19 +107,15 @@ def init_gee(project_id):
 # =========================
 def clean_geometries(gdf):
 
-    # força CRS correto
     if gdf.crs is None:
         raise ValueError("CRS não definido")
 
-    # reprojeta
     gdf = gdf.to_crs(epsg=4326)
 
-    # remove inválidos
     gdf = gdf[gdf.geometry.notnull()]
     gdf = gdf[~gdf.geometry.is_empty]
     gdf = gdf[gdf.is_valid]
 
-    # remove coordenadas absurdas (ESSENCIAL)
     bounds = gdf.bounds
     gdf = gdf[
         (bounds.minx >= -180) &
@@ -287,7 +283,7 @@ def process_batch(batch_gdf, start, output_dir, START_DATE, END_DATE, cc, state,
     start_time = time.time()
     batch_size = len(batch_gdf)
 
-    logging.info(f"[INFO] Processing batch {start} → {start + batch_size}")
+    logging.info(f"[INFO] Processing batch {start} -> {start + batch_size}")
 
     if batch_size == 0:
         return
@@ -354,18 +350,18 @@ def process_batch(batch_gdf, start, output_dir, START_DATE, END_DATE, cc, state,
         df.to_csv(output_path, index=False)
         logging.info(f"[INFO] Saved: {output_path}")
         elapsed1 = time.time() - start_time
-        logging.info(f"[TIME] Batch {start} → {start + batch_size} took {elapsed1:.2f} sec ({elapsed1/60:.2f} min)")
+        logging.info(f"[TIME] Batch {start} -> {start + batch_size} took {elapsed1:.2f} sec ({elapsed1/60:.2f} min)")
         time.sleep(5)
         #transform dataframe    
         start_transform = time.time()
         transform_dataframe(df, output_root)
         elapsed2 = time.time() - start_transform
-        logging.info(f"[TIME] Batch {start} → {start + batch_size} transformation took {elapsed2:.2f} sec ({elapsed2/60:.2f} min)")
+        logging.info(f"[TIME] Batch {start} -> {start + batch_size} transformation took {elapsed2:.2f} sec ({elapsed2/60:.2f} min)")
 
     except Exception as e:
         error_msg = str(e)
 
-        logging.error(f"Failed batch {start} → {start + batch_size}: {error_msg}") 
+        logging.error(f"Failed batch {start} -> {start + batch_size}: {error_msg}") 
                
         log_failure(state, county, start, batch_size, error_msg)
 

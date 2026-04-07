@@ -1,6 +1,5 @@
 #%%
 from os import mkdir
-
 import yaml
 from pathlib import Path
 import geopandas as gpd
@@ -19,7 +18,7 @@ logging.basicConfig(
         logging.StreamHandler() 
     ]
 )
-#%%
+
 def main():
 
     with open(r"C:\Users\jd2725\Documents\Field_boundaries_v2\time_series_hls\conf_batch.yaml", "r") as f:
@@ -40,10 +39,10 @@ def main():
         output_processed = Path(config["output_postprocess"])
         output_processed.mkdir(parents=True, exist_ok=True)
 
-        for county in ['117']:#counties:
+        for county in counties:
             county_subset = gdf[gdf["COUNTYFP"] == county]
             total = len(county_subset)
-            county_subset = county_subset[county_subset.Field_ID == 19117000224]
+
             logging.info(f"Processing county: {county}. Total features: {total}")
 
             year = str(config.get("year"))
@@ -76,7 +75,7 @@ def main():
                     continue
 
                 for gap_start, gap_end in gaps:
-                    logging.info(f"[GAP] Processing missing range {gap_start} → {gap_end}")
+                    logging.info(f"[GAP] Processing missing range {gap_start} -> {gap_end}")
 
                     gap_batch = county_subset.iloc[gap_start:gap_end]
 
@@ -96,7 +95,7 @@ def main():
                         )
 
                     except Exception as e:
-                        logging.error(f"Failed to process batch {start} → {start + len(batch)}: {e}")
+                        logging.error(f"Failed to process batch {start} -> {start + len(batch)}: {e}")
 
 if __name__ == "__main__":
     main()                  

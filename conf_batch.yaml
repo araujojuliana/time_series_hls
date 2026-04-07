@@ -1,9 +1,9 @@
 # =========================
 # PATHS
 # =========================
-input_path: "C:/Users/jd2725/Documents/Field_boundaries_v2/fields_states/"
-output_dir: "C:/ndvi_output"
-output_postprocess: "C:/ndvi_output_raw"
+input_path: "H:/public/Field_boundaries_per_state/"
+output_dir: "C:/ndvi_output_batch"
+output_postprocess: "C:/ndvi_output_raw_ts"
 
 # =========================
 # FILTERS
@@ -27,5 +27,5 @@ cloud_coverage: 80
 # =========================
 # PROCESSING
 # =========================
-batch_size: 300
+batch_size: 200
 scale: 30
